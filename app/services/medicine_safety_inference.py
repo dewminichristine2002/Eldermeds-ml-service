@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 from sklearn.base import BaseEstimator, TransformerMixin
 
-ROOT = Path(__file__).resolve().parents[3]
-ARTIFACT_PATH = ROOT / "backend" / "ml" / "models" / "fda_serious_baselines" / "logistic_regression_tuned_with_threshold.joblib"
+ROOT = Path(__file__).resolve().parents[2]
+ARTIFACT_PATH = ROOT / "app" / "models" / "logistic_regression_tuned_with_threshold.joblib"
 
 FEATURE_COLUMNS = [
     "year",
